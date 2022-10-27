@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 int tim_so_dao_nguoc(int n){
 	int x=0;
 	while(n>0){
