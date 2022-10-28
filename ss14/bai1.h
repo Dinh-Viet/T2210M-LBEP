@@ -51,25 +51,25 @@ int BCNN(int a, int b,int step,int kq){
     }
     
 //bai6
-bool checkSoChinhPhuong(int n){
-	for(int i=1;i*i<= n;i++){
-		if(i*i==n){
-		return true;
-	}else{
-	    return false;
-        } 
-    }
+bool SoChinhPhuong(int n){
+if(n<1){
+	return false;
 }
-//bai7 
-int songuyenduongnhonhat(int n){
-	n=0;
-	int s=0;
+int i =sqrt(n);
+if(i*i==n){
+	return true;
+}
+return false;
+}
+//bai 7
+int songuyenduongnhonhat(){
+	int n=0;
+    int	s=0;
 	while(s < 10000){
 		n++;
 		s+=n;
-		return n;
 	}
-	return s;
+	return n;
 }
 //bai8
 bool KiemTra_SoGiamDan(int n)

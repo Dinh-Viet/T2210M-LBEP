@@ -35,8 +35,7 @@ int main(){
 	printf ("tong cac chu so nguyen n:%d",s);
    }
 }
-*/
- //bai 4
+/* //bai 4
 int main(){
 	int a;
 	int b;
@@ -49,7 +48,7 @@ int main(){
 	printf ("uoc chung lon nhat la: %d",x);
 	}	
 }
-
+*/
 /*
 int main(){
 	int a;
@@ -65,8 +64,36 @@ int main(){
 		printf("boi chung nho nhat la: %d",x);
 	}
 }
+*/ 
+/* //bài 6
+int main(){
+	int n;
+	printf("nhap so: ");
+	scanf("%d",&n);
+	int x = sqrt(n);
+	 if(x*x == n) printf("la so chinh phuong");
+    else printf("khong phai la so chinh phuong");
+}
+*/
+/* 
+int main(){
+	int n=0;
+	int s=0;
+	songuyenduongnhonhat();
+	printf("so nho nhat la: %d",songuyenduongnhonhat());
+}
 */
 
-
-
+int main(){
+	int n;
+	int giamdan;
+	printf("nhap n: ");
+	scanf("%d",&n);
+	KiemTra_SoGiamDan(n);
+	int v = n % 10;
+    if (v <= giamdan) 
+	printf("la dung",KiemTra_SoGiamDan(n));
+	else
+	 printf("la sai",KiemTra_SoGiamDan(n));
+}
 

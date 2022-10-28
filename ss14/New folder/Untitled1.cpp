@@ -5,7 +5,7 @@ int main(){
 	for(int i=1;i<=10000;i++){
 		n+=i;
 		if(n>10000){
-			printf("so nho nhat",i);
+			printf("so nho nhat:%d",i);
 			return 0;
 		}
 	}
